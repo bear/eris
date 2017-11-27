@@ -137,12 +137,16 @@ $ docker stack deploy -c docker-compose.yml eris
 
 Which assumes a `ircd.yml` coniguration file in the current directory which Docker will use to distribute as the configuration. The `docker-compose.yml` (*Docker Stackfile*) is available at the root of this repository.
 
-## Related Proejcts
+## Related Projects
 
 There are a number of supported accompanying services that are being developed alongside Eris:
 
 * [Soter](https://github.com/prologic/soter) -- An IRC Bot that persists channel modes and topics.
 * [Cadmus](https://github.com/prologic/cadmus) -- An IRC Bot that logs channels and provides an interface for viewing and searching logs
+
+## Recommended Mobile clients
+
+* [Palaver (iOS)](https://palaverapp.com/) -- SASL, TLS, Server Password, Push Notifications, IRCv3 (*Also supports custom image upload service(s) for better privacy of shared photos/images over IRC*)
 
 ## License
 
